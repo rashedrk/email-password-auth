@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Main from './Layout/Main'
 import Home from './components/Home/Home'
-import Login from './components/Login/login'
 import Register from './components/Register/Register'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './components/Login/Login'
+
 
 const router = createBrowserRouter([
   {
